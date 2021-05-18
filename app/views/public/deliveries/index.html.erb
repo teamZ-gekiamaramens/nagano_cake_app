@@ -1,9 +1,0 @@
-配送先登録
-<%= form_with mode: @deliveries,local:true do |f| %>
- 郵便番号（ハイフンなし）
- <%= f.text_area :postal_code %>
- 住所
- <%= f.text_field :address %>
- 宛名
- <%= f.text_field :name %>
-<% end %>
